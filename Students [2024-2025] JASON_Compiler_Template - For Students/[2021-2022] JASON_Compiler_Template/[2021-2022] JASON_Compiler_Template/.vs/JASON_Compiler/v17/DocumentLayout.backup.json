@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|d:\\desgin of compilers\\students [2024-2025] jason_compiler_template - for students\\[2021-2022] jason_compiler_template\\[2021-2022] jason_compiler_template\\jason_compiler\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|c:\\users\\dell\\compiler-project\\students [2024-2025] jason_compiler_template - for students\\[2021-2022] jason_compiler_template\\[2021-2022] jason_compiler_template\\jason_compiler\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\jason_compiler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\jason_compiler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Program.cs",
               "RelativeDocumentMoniker": "JASON_Compiler\\Program.cs",
-              "ToolTip": "D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Program.cs",
               "RelativeToolTip": "JASON_Compiler\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Scanner.cs",
-              "DocumentMoniker": "D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Scanner.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Scanner.cs",
               "RelativeDocumentMoniker": "JASON_Compiler\\Scanner.cs",
-              "ToolTip": "D:\\Desgin of Compilers\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Scanner.cs",
+              "ToolTip": "C:\\Users\\DELL\\Compiler-Project\\Students [2024-2025] JASON_Compiler_Template - For Students\\[2021-2022] JASON_Compiler_Template\\[2021-2022] JASON_Compiler_Template\\JASON_Compiler\\Scanner.cs",
               "RelativeToolTip": "JASON_Compiler\\Scanner.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwOMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAtwOEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T20:21:38.642Z",
               "EditorCaption": ""
