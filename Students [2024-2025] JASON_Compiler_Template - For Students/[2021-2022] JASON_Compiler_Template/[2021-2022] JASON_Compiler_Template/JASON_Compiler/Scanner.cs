@@ -107,7 +107,14 @@ namespace JASON_Compiler
                     i++;
                     continue;
                 }
-                
+                // Handle single-character operators FIRST
+                if (Operators.ContainsKey(CurrentChar.ToString()) || Symbols.ContainsKey(CurrentChar.ToString()))
+                {
+                    FindTokenClass(CurrentChar.ToString());
+                    i++;
+                    continue;
+                }
+
                 // هنا بياخد الكلمة و يحدد نوعها سواء كانت Reserved Word أو Identifier
                 if (char.IsLetter(CurrentChar))
                 {
@@ -247,6 +254,7 @@ namespace JASON_Compiler
             JASON_Compiler.TokenStream = Tokens;
         }
 
+        
         void FindTokenClass(string Lex)
         {
             if (string.IsNullOrWhiteSpace(Lex)) return;
@@ -254,24 +262,22 @@ namespace JASON_Compiler
             Token Tok = new Token();
             Tok.lex = Lex;
 
-            // token is a lexeme and token type ..
-            if (ReservedWords.ContainsKey(Lex))
-            {
-                Tok.token_type = ReservedWords[Lex];
-            }
-            else if (isIdentifier(Lex))
-            {
-                Tok.token_type = Token_Class.Idenifier;
-            }
-            else if (Operators.ContainsKey(Lex))
+            // 1. Check operators FIRST
+            if (Operators.ContainsKey(Lex))
             {
                 Tok.token_type = Operators[Lex];
             }
+            // 2. Check symbols
             else if (Symbols.ContainsKey(Lex))
             {
                 Tok.token_type = Symbols[Lex];
             }
-            // Is acomment ?
+            // 3. Reserved words
+            else if (ReservedWords.ContainsKey(Lex))
+            {
+                Tok.token_type = ReservedWords[Lex];
+            }
+            // 4. Other token types
             else if (IsComment(Lex))
             {
                 Tok.token_type = Token_Class.Comment;
@@ -284,15 +290,18 @@ namespace JASON_Compiler
             {
                 Tok.token_type = Token_Class.Number;
             }
+            else if (isIdentifier(Lex))
+            {
+                Tok.token_type = Token_Class.Idenifier;
+            }
             else
             {
-                Errors.Error_List.Add("Invalid Token: " + Lex); // from 
+                Errors.Error_List.Add("Invalid Token: " + Lex);
                 return;
             }
 
             Tokens.Add(Tok);
         }
-
         bool isIdentifier(string lex)
         {
             // Reject if starts with digit
